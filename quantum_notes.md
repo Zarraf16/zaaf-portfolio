@@ -15,7 +15,18 @@
 - Basis states: |0⟩, |1⟩
 - Superposition: α|0⟩ + β|1⟩
 - Bloch Sphere: (brief description)
+- What You Should Remember:
+- QuantumCircuit(qubits, classical_bits) → create a circuit
 
+qc.h(0) → Hadamard gate
+
+qc.x(0) → X gate
+
+qc.cx(0, 1) → CNOT gate
+
+qc.measure(q, c) → measure qubit to classical bit
+
+execute() → run on simulator or real quantum machine
 ---
 
 ## 3. Quantum Gates
@@ -34,7 +45,7 @@ qc.h(0)
 qc.cx(0, 1)
 qc.draw()
 
-##4. Measurement
+## 4. Measurement
 - Collapse to classical bit
 
 - Syntax: qc.measure(q, c)
@@ -42,7 +53,7 @@ qc.draw()
 ---
 
 
-##5. Execution
+## 5. Execution
 Simulator vs real quantum device
 
 Example:
