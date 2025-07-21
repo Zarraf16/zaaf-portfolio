@@ -34,12 +34,15 @@ qc.h(0)
 qc.cx(0, 1)
 qc.draw()
 
-4. Measurement
-Collapse to classical bit
+##4. Measurement
+-Collapse to classical bit
 
-Syntax: qc.measure(q, c)
+-Syntax: qc.measure(q, c)
 
-5. Execution
+---
+
+
+##5. Execution
 Simulator vs real quantum device
 
 Example:
