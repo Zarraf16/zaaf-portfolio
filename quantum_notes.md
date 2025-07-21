@@ -35,9 +35,9 @@ qc.cx(0, 1)
 qc.draw()
 
 ##4. Measurement
--Collapse to classical bit
+- Collapse to classical bit
 
--Syntax: qc.measure(q, c)
+- Syntax: qc.measure(q, c)
 
 ---
 
